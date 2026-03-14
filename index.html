@@ -3,13 +3,98 @@
   <head>
     <meta charset="UTF-8">
     <title>4 Square: My Favoriye Playground Game</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        font-family: 'Arial', sans-serif;
+        color: White;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: rgba(255,255,255,0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        padding: 40px;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        border: 1px solid rgba(255,255,255,0.2);
+      }
+
+      h1 {
+        font-size: 3em;
+        text-align: center;
+        background: linear-gradient(45deg, #FF6B6B, #4ECDC4, #45B7D1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 30px;
+        text-shadow: 0 0 30px rgba(255,255,255,0.5);
+      }
+
+      p {
+        background: rgba(255,255.255.0.15);
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 15px;
+        backdrop-filter: blur(5px);
+        border: 1px solid rgba(255,255,255,0.2);
+        line-height: 1.7;
+        font-size: 1.1em;
+      }
+
+      a {
+        color: #FFD700;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 10px 20px;
+        background: linear-gradient(45deg, #FFD700, #FFA500);
+        border-radius: 25px;
+        display: inline-block;
+        transition: all 0.3s ease;
+        box-shadow: 0 5px 15px rgba(255,215,0,0.4);
+      }
+
+      img {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        display: block;
+        margin: 30px auto;
+        border-radius: 20px;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        border: 5px solid rgba(255,255,255,0.3);
+      }
+
+      .challenge {
+        text-align: center;
+        font-size: 1.5em;
+        background: linear-gradient(45deg, #FF6B6B, #FF8E53);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-top: 30px;
+        padding: 20px;
+        border-radius: 15px;
+        border: 2px solid rgba(255,255,255,0.3);
+      }
+    </style>
   </head>
   <body>
-    <h1>4Square: My Favourite Playground Game</h1>
+    <div class="container">
+    <h1>4 Square: My Favourite Playground Game</h1>
 
     <p>
       This website is about a game: 4 Square, a super fun game and I love playing at parks with my friends.
-      It uses a bouncy ball on a court a plit into four square, where players hit the ball into other square without letting it bounce twice. 
+      It uses a bouncy ball on a court a split into four square, where players hit the ball into other square without letting it bounce twice. 
       The goal is to stay in the higher square by getting others out, like if they miss or hit it out of bounds.
     </p>
     <p>
@@ -22,6 +107,9 @@
       Here's apicture of a 4 Square court in action. 
       Upload your image as <strong>image.jpg</strong> in teh same folder as this file.
     </p>
-    <imp src="image,jpg" alt="kid playing 4 Square game on a playgrounf court with numbered square and a ball" width="400">
+    <imp src="image.jpg" alt="kid playing 4 Square game on a playgrounf court with numbered square and a ball" width="400">
+      <div class="challenge">
+      </div>
+    </div>
   </body>
 </html>
